@@ -21,7 +21,7 @@ This application is a tool to generate the needed files
 to quickly create a Cobra application.`,
 	Run: func(cmd *cobra.Command, args []string) {
 		// fmt.Println("test called")
-		test()
+		set1Test()
 	},
 }
 
@@ -39,7 +39,7 @@ func init() {
 	// testCmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
 }
 
-func test() {
+func set1Test() {
 	// Create a set using a map
 	set := make(map[string]struct{})
 

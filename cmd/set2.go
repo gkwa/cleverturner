@@ -11,7 +11,7 @@ import (
 
 // test2Cmd represents the test2 command
 var test2Cmd = &cobra.Command{
-	Use:   "test2",
+	Use:   "set",
 	Short: "A brief description of your command",
 	Long: `A longer description that spans multiple lines and likely contains examples
 and usage of using your command. For example:
@@ -21,7 +21,7 @@ This application is a tool to generate the needed files
 to quickly create a Cobra application.`,
 	Run: func(cmd *cobra.Command, args []string) {
 		// fmt.Println("test2 called")
-		test2()
+		set2Test()
 	},
 }
 
@@ -39,7 +39,7 @@ func init() {
 	// test2Cmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
 }
 
-func test2() {
+func set2Test() {
 	// Sample array of fruits
 	fruits := []string{"apple", "banana", "orange", "grape"}
 
